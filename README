@@ -1,0 +1,38 @@
+-*- markdown -*-
+
+# OSS-JDBC v0.1
+
+OSS-JDBC is an empty Maven project that depends on several Open Source JDBC
+drivers. The sole purpose of this project is to automatically pull in JDBC
+driver JARs as Maven dependencies. The following JDBC drivers are supported:
+
+* Apache Derby
+* HSQLDB
+* H2
+* MySQL
+* PostgreSQL
+* jTDS (SQL Server, Sybase)
+
+For details on current version, check the CHANGES file.
+
+
+## Usage
+
+Maven/Leiningen dependency details are here: [http://clojars.org/org.bituf/oss-jdbc](http://clojars.org/org.bituf/oss-jdbc)
+
+Examples for usage can be found in the tutorial below:
+
+
+## Building/Installation
+
+You will need Maven 2 to build from sources. Execute the following:
+
+    $ mvn clean package  # packages up a JAR in "target" dir
+    $ mvn install        # to install to your local Maven repo
+
+
+## License
+
+Copyright (C) 2010 Shantanu Kumar (kumar.shantanu at gmail dot com)
+
+Distributed under the Apache 2 License.

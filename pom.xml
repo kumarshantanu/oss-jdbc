@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.bituf</groupId>
+  <artifactId>oss-jdbc</artifactId>
+  <packaging>jar</packaging>
+  <version>0.1</version>
+  <name>OSS-JDBC</name>
+  <description>
+    OSS-JDBC is an empty Maven project that depends on several Open Source JDBC
+    drivers. The sole purpose of this project is to automatically pull in JDBC
+    driver JARs as Maven dependencies.
+  </description>
+  <url>http://code.google.com/p/bitumenframework/</url>
+  <dependencies>
+    <!-- JDBC Drivers -->
+    <dependency><!-- Apache Derby -->
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derby</artifactId>
+      <version>10.6.1.0</version>
+    </dependency>
+    <dependency><!-- Apache Derby Client -->
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derbyclient</artifactId>
+      <version>10.6.1.0</version>
+    </dependency>
+    <dependency><!-- Apache Derby Tools (network server)-->
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derbynet</artifactId>
+      <version>10.6.1.0</version>
+    </dependency>
+    <dependency><!-- H2 Database -->
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <version>1.2.143</version>
+    </dependency>
+    <dependency><!-- HSQLDB -->
+      <groupId>org.hsqldb</groupId>
+      <artifactId>hsqldb</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+    <dependency><!-- MySQL Database -->
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.13</version>
+    </dependency>
+    <dependency><!-- Postgresql -->
+      <groupId>postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <!-- <version>8.4-701.jdbc3</version> -->
+      <version>8.4-701.jdbc4</version>
+    </dependency>
+    <dependency><!-- SQL Server / Sybase -->
+      <groupId>net.sourceforge.jtds</groupId>
+      <artifactId>jtds</artifactId>
+      <version>1.2.4</version>
+    </dependency>
+    <!-- Firebird (Jaybird) -->
+    <!--
+    <dependency>
+      <groupId>org.firebirdsql.jdbc</groupId>
+      <artifactId>jaybird</artifactId>
+      <version>2.1.6</version>
+    </dependency>
+    -->
+  </dependencies>
+</project>
