@@ -6,6 +6,10 @@
 - [TODO] Wait for CUBRID JDBC driver to be released to a maven repo
 - [TODO] Check for JDBC drivers of other Open Source databases
 
+## 0.2 / 2010-Oct-31 (GMT+5:30)
+
+- SQLite       3.7.2 (www.xerial.org)
+
 ## 0.1 / 2010-Oct-12 (GMT+5:30)
 
 - Apache Derby 10.6.1.0

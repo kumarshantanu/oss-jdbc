@@ -4,7 +4,7 @@
   <groupId>org.bituf</groupId>
   <artifactId>oss-jdbc</artifactId>
   <packaging>jar</packaging>
-  <version>0.1</version>
+  <version>0.2</version>
   <name>OSS-JDBC</name>
   <description>
     OSS-JDBC is an empty Maven project that depends on several Open Source JDBC
@@ -54,6 +54,11 @@
       <groupId>net.sourceforge.jtds</groupId>
       <artifactId>jtds</artifactId>
       <version>1.2.4</version>
+    </dependency>
+    <dependency><!-- SQLite -->
+      <groupId>org.xerial</groupId>
+      <artifactId>sqlite-jdbc</artifactId>
+      <version>3.7.2</version>
     </dependency>
     <!-- Firebird (Jaybird) -->
     <!--
