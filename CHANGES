@@ -3,18 +3,24 @@
 # Changes and TODO
 
 - [TODO] Find hassle-free version of Firebird JDBC driver
-- [TODO] Wait for CUBRID JDBC driver to be released to a maven repo
 - [TODO] Check for JDBC drivers of other Open Source databases
 
-## 0.2 / 2010-Oct-31 (GMT+5:30)
 
-- SQLite       3.7.2 (www.xerial.org)
+## 0.3 / 2010-Nov-08
 
-## 0.1 / 2010-Oct-12 (GMT+5:30)
+* CUBRID       8.3.0.0337
 
-- Apache Derby 10.6.1.0
-- H2           1.2.143
-- HSQLDB       2.0.0
-- MySQL        5.1.13
-- PostgreSQL   8.4-701.jdbc4
-- jTDS         1.2.4
+
+## 0.2 / 2010-Oct-31
+
+* SQLite       3.7.2 (www.xerial.org)
+
+
+## 0.1 / 2010-Oct-12
+
+* Apache Derby 10.6.1.0
+* H2           1.2.143
+* HSQLDB       2.0.0
+* MySQL        5.1.13
+* PostgreSQL   8.4-701.jdbc4
+* jTDS         1.2.4

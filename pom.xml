@@ -4,7 +4,7 @@
   <groupId>org.bituf</groupId>
   <artifactId>oss-jdbc</artifactId>
   <packaging>jar</packaging>
-  <version>0.2</version>
+  <version>0.3</version>
   <name>OSS-JDBC</name>
   <description>
     OSS-JDBC is an empty Maven project that depends on several Open Source JDBC
@@ -12,6 +12,12 @@
     driver JARs as Maven dependencies.
   </description>
   <url>http://code.google.com/p/bitumenframework/</url>
+  <repositories>
+    <repository>
+      <id>clojars.org</id>
+      <url>http://clojars.org/repo</url>
+    </repository>
+  </repositories>
   <dependencies>
     <!-- JDBC Drivers -->
     <dependency><!-- Apache Derby -->
@@ -59,6 +65,11 @@
       <groupId>org.xerial</groupId>
       <artifactId>sqlite-jdbc</artifactId>
       <version>3.7.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.clojars.cubrid</groupId>
+      <artifactId>cubrid-jdbc</artifactId>
+      <version>8.3.0.0337</version>
     </dependency>
     <!-- Firebird (Jaybird) -->
     <!--
