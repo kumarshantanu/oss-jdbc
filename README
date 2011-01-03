@@ -1,19 +1,20 @@
 -*- markdown -*-
 
-# OSS-JDBC v0.3
+# OSS-JDBC v0.4
 
 OSS-JDBC is an empty Maven project that depends on several Open Source JDBC
 drivers. The sole purpose of this project is to automatically pull in JDBC
 driver JARs as Maven dependencies. The following JDBC drivers are supported:
 
 * Apache Derby
+* CUBRID
+* Firebird (Type-4)
 * HSQLDB
 * H2
+* jTDS (SQL Server, Sybase)
 * MySQL
 * PostgreSQL
-* jTDS (SQL Server, Sybase)
 * SQLite
-* CUBRID
 
 For details on current version, check the CHANGES file.
 

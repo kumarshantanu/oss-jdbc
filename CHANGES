@@ -6,7 +6,7 @@
 - [TODO] Excel JDBC (first upload to Clojars maybe) http://xlsql.dev.java.net
 
 
-## 0.4 / 2011-Jan-??
+## 0.4 / 2011-Jan-04
 
 * Apache Derby 10.7.1.1      [Updated]
 - CUBRID       8.3.1.0173    [Updated]

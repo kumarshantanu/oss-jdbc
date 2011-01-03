@@ -4,7 +4,7 @@
   <groupId>org.bituf</groupId>
   <artifactId>oss-jdbc</artifactId>
   <packaging>jar</packaging>
-  <version>0.4-SNAPSHOT</version>
+  <version>0.4</version>
   <name>OSS-JDBC</name>
   <description>
     OSS-JDBC is an empty Maven project that depends on several Open Source JDBC
