@@ -2,8 +2,15 @@
 
 # Changes and TODO
 
-- [TODO] Check for JDBC drivers of other less popular Open Source databases
-- [TODO] Excel JDBC (first upload to Clojars maybe) http://xlsql.dev.java.net
+
+## 0.6 / 2011-Dec-??
+
+* Apache Derby 10.8.2.2      [Updated]
+* H2           1.3.162       [Updated]
+* HSQLDB       2.2.6         [Updated]
+* PostgreSQL   9.1-901.jdbc4 [Updated]
+* MckoiDDB     1.0.2         [New]
+* Axion        1.0-M3-dev    [New]
 
 
 ## 0.5 / 2011-Oct-06
