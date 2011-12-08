@@ -1,6 +1,6 @@
 -*- markdown -*-
 
-# OSS-JDBC v0.5
+# OSS-JDBC v0.6
 
 OSS-JDBC is an empty Maven project that depends on several Open Source JDBC
 drivers. The sole purpose of this project is to automatically pull in JDBC
@@ -15,6 +15,9 @@ driver JARs as Maven dependencies. The following JDBC drivers are supported:
 * MySQL
 * PostgreSQL
 * SQLite
+* MonetDB
+* MckoiDDB
+* Axion
 
 For details on current version, check the CHANGES file.
 
