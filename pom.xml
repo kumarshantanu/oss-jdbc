@@ -71,6 +71,11 @@
       <artifactId>cubrid-jdbc</artifactId>
       <version>8.4.0.0243</version>
     </dependency>
+    <dependency><!-- MonetDB -->
+      <groupId>monetdb</groupId>
+      <artifactId>monetdb-jdbc</artifactId>
+      <version>2.0</version>
+    </dependency>
     <!-- Firebird (Jaybird) -->
     <dependency>
       <groupId>org.firebirdsql.jdbc</groupId>
