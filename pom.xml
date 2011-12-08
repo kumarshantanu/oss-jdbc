@@ -66,8 +66,8 @@
       <artifactId>sqlite-jdbc</artifactId>
       <version>3.7.2</version>
     </dependency>
-    <dependency>
-      <groupId>org.clojars.cubrid</groupId>
+    <dependency><!-- CUBRID -->
+      <groupId>cubrid</groupId>
       <artifactId>cubrid-jdbc</artifactId>
       <version>8.4.0.0243</version>
     </dependency>
