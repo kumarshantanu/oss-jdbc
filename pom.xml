@@ -100,5 +100,10 @@
       <artifactId>axion</artifactId>
       <version>1.0-M3-dev</version>
     </dependency>
+    <dependency> <!-- Required for Axion -->
+      <groupId>jakarta-regexp</groupId>
+      <artifactId>jakarta-regexp</artifactId>
+      <version>1.4</version>
+    </dependency>
   </dependencies>
 </project>
