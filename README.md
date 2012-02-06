@@ -1,6 +1,6 @@
 -*- markdown -*-
 
-# OSS-JDBC v0.6
+# OSS-JDBC v0.7
 
 OSS-JDBC is an empty Maven project that depends on several Open Source JDBC
 drivers. The sole purpose of this project is to automatically pull in JDBC
