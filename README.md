@@ -1,5 +1,3 @@
--*- markdown -*-
-
 # OSS-JDBC v0.8.0
 
 OSS-JDBC is an empty Maven project that depends on several Open Source JDBC

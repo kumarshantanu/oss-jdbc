@@ -1,5 +1,3 @@
--*- markdown -*-
-
 # Changes and TODO
 
 
@@ -8,6 +6,7 @@
 * Moved repository to Github
 * Changed license from Apache 2.0 to EPL 1.0
 * Changed Maven groupId from org.bituf to oss-jdbc
+* Move to semantic versioning
 * H2           1.3.166       [Updated]
 * MySQL        5.1.20        [Updated]
 * CUBRID       8.4.1.2032    [Updated]
