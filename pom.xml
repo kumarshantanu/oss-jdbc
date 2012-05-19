@@ -4,7 +4,7 @@
   <groupId>oss-jdbc</groupId>
   <artifactId>oss-jdbc</artifactId>
   <packaging>jar</packaging>
-  <version>0.8</version>
+  <version>0.8.0</version>
   <name>OSS-JDBC</name>
   <description>
     OSS-JDBC is an empty Maven project that depends on several Open Source JDBC
